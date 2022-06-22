@@ -1,0 +1,10 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.FullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen"></style>
+    <style name="CircleProgressbar">
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="SwitchColor">
+        <item name="colorAccent">@color/green_agrolog2</item>
+    </style>
+</resources>

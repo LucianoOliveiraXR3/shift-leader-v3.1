@@ -1,0 +1,5 @@
+include ':db-service'
+include ':socket-service'
+include ':app'
+project(':socket-service').projectDir = new File(rootDir, 'socketservice/')
+rootProject.name = "Shift Leader"

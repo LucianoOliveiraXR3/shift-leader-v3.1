@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_datasync">
+
+    <fragment
+        android:id="@+id/nav_datasync"
+        android:name="br.com.crearesistemas.shift_leader.ui.datasync.DataSyncFragment"
+        android:label="@string/menu_datasync"
+        tools:layout="@layout/fragment_datasync" />
+
+    <fragment
+        android:id="@+id/nav_chainsaw_feeling"
+        android:name="br.com.crearesistemas.shift_leader.ui.semi_mechanized.ChainsawFeelingFragment"
+        android:label="Chainsaw feeling"
+        tools:layout="@layout/fragment_chainsaw_feeling" />
+
+    <fragment
+        android:id="@+id/nav_machine_prebunching"
+        android:name="br.com.crearesistemas.shift_leader.ui.semi_mechanized.MachinePrebunchingFragment"
+        android:label="@string/menu_machine_prebunching"
+        tools:layout="@layout/fragment_machine_prebunching" />
+
+    <fragment
+        android:id="@+id/nav_chainsaw_bucking"
+        android:name="br.com.crearesistemas.shift_leader.ui.semi_mechanized.ChainsawBuckingFragment"
+        android:label="Chainsaw bucking"
+        tools:layout="@layout/fragment_chainsaw_bucking" />
+
+    <fragment
+        android:id="@+id/nav_machine_extraction"
+        android:name="br.com.crearesistemas.shift_leader.ui.semi_mechanized.MachineExtractionFragment"
+        android:label="Machine Extraction"
+        tools:layout="@layout/fragment_machine_extraction" />
+
+    <fragment
+        android:id="@+id/nav_approval_webview"
+        android:name="br.com.crearesistemas.shift_leader.ui.semi_mechanized.ApprovalFragment"
+        android:label="Approval WorkFlow"
+        tools:layout="@layout/fragment_approval"/>
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="br.com.crearesistemas.shift_leader.ui.other.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_approval"/>
+
+</navigation>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Shift Leader</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="nav_full_mechanized">Full Mechanized</string>
+    <string name="nav_semi_mechanized">Semi Mechanized</string>
+
+
+    <string name="menu_datasync">Data Sync</string>
+
+    <string name="menu_machine_prebunching">Machine Prebunching</string>
+    <string name="nav_chainsaw_feeling">Chainsaw Feeling</string>
+    <string name="nav_chainsaw_bucking">Chainsaw Bucking</string>
+    <string name="nav_machine_extraction">Machine Extraction</string>
+
+    <string name="txt_connect_config">Connection Config</string>
+    <string name="txt_status_settings">Status Settings</string>
+    <string name="text_btn_login">Login</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_ajust_time">Setting time to check</string>
+
+    <string name="location">LOCATION</string>
+    <string name="area_size_ha">AREA SIZE (HA)</string>
+    <string name="quantity_chainsaw_men">QUANTITY OF CHAINSAW MEN</string>
+    <string name="working_hours">WORKING HOURS</string>
+    <string name="actual_size_performed">ACTUAL SIZE PERFORMED</string>
+    <string name="size_vol_preset_bysl">SIZE/VOL. IS A PRESET (BY SL)</string>
+
+    <string name="tv_selec_language_message">SELECT LANGUAGE</string>
+
+    <string name="label_insert_user">Insert User</string>
+    <string name="label_insert_pass">Insert Password</string>
+
+    <string name="label_list_machines">MACHINES</string>
+
+    <string name="btn_last_sync_cloud">SYNC CLOUD</string>
+    <string name="btn_sync_aut">CLOUD MODE</string>
+    <string name="btn_last_sync_to_cloud">Last Sync</string>
+    <string name="btn_last_sync_to_cloud_nodate">No Sync Date</string>
+
+    <string name="msg_generic_error">Error saving data, try again later.</string>
+    <string name="msg_generic_success">Saved successfully.</string>
+
+    <string name="msg_change_login">Changing language...</string>
+
+    <string name="info_text"> In this menu, you can change the equipment check time.\n Reducing time to change data collection status.Connection Config</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="other">Other</string>
+    <string name="connect">Connect</string>
+    <string name="error">Error</string>
+    <string name="done">Done</string>
+    <string name="gang">Gang</string>
+</resources>

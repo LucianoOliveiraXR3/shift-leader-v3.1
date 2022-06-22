@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Shift Leader</string>
+    <string name="nav_header_desc">Menu</string>
+    <string name="action_settings">Seting</string>
+    <string name="action_logout">keluar</string>
+    <string name="nav_full_mechanized">Full Mechanized</string>
+    <string name="nav_semi_mechanized">Semi Mechanized</string>
+
+
+    <string name="menu_datasync">Sinkronisasi Data</string>
+
+    <string name="menu_machine_prebunching">Mesin Prebunching</string>
+    <string name="nav_chainsaw_feeling">Felling Manual</string>
+    <string name="nav_chainsaw_bucking">Bucking dengan Chainsaw</string>
+    <string name="nav_machine_extraction">Mesin Extraction</string>
+
+    <string name="txt_connect_config">Konfigurasi Koneksi</string>
+    <string name="txt_status_settings">Seting Status</string>
+    <string name="text_btn_login">Login</string>
+    <string name="btn_back">Kembali</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_ajust_time">Menyeting waktu Untuk Mengecek</string>
+
+    <string name="location">Lokasi</string>
+    <string name="area_size_ha">Luasan Area</string>
+    <string name="quantity_chainsaw_men">Jumlah Operator CS</string>
+    <string name="working_hours">Waktu Kerja</string>
+    <string name="actual_size_performed">Aktual luas kerja</string>
+    <string name="size_vol_preset_bysl">Pengaturan Ukuran/ Volume</string>
+
+    <string name="tv_selec_language_message">Pilih Bahasa</string>
+
+    <string name="label_insert_user">Masukan Pengguna</string>
+    <string name="label_insert_pass">Buka Password</string>
+
+    <string name="label_list_machines">Mesin</string>
+
+    <string name="btn_last_sync_cloud">Singkronisasi ke cloud</string>
+    <string name="btn_sync_aut">Mode Cloud</string>
+    <string name="btn_last_sync_to_cloud">Sinkronisasi terakhir ke cloud</string>
+
+    <string name="msg_generic_error">Gagal menyimpan data, ulang kembali</string>
+    <string name="msg_generic_success">Sukses menyimpan data</string>
+
+    <string name="msg_change_login">Mengubah bahasa...</string>
+
+    <string name="info_text">Dalam menu ini, Anda dapat mengubah waktu pemeriksaan peralatan\n dan atau mengurangi waktu untuk mengubah status koneksi data.Konfigurasi Koneksi</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="other">Other</string>
+    <string name="connect">Connect</string>
+    <string name="error">Error</string>
+    <string name="done">Done</string>
+    <string name="gang">Gang</string>
+</resources>

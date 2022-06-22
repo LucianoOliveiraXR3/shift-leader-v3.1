@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/background_clean">
+
+    <LinearLayout
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="246dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="358dp"
+            android:layout_height="43dp"
+            android:background="@drawable/background_login_form"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/nav_machine_extraction"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07999998" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="780dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="388dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="83dp"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="85dp"
+                android:text="@string/gang"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#fff"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/select_gang"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:backgroundTint="#fff"
+                android:textColor="#fff" />
+
+
+            <TextView
+                android:layout_width="433dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="83dp"
+                android:text="@string/size_vol_preset_bysl"
+                android:layout_marginTop="35dp"
+
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textSize="17dp"
+                android:textColor="#fff"
+                />
+
+            <EditText
+                android:id="@+id/txt_size_vol"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                android:backgroundTint="#fff"
+                android:inputType="number"
+                android:digits="0123456789."
+                android:selectAllOnFocus="false"
+                android:singleLine="true"
+                android:textColor="#fff"></EditText>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginLeft="650dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_save"
+            app:backgroundTint="#4CAF50" />
+    </LinearLayout>
+
+</RelativeLayout>

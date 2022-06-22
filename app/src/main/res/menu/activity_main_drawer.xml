@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_menu_datasync"
+            android:orderInCategory="1"
+            android:title="@string/nav_full_mechanized">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_datasync"
+                    android:icon="@drawable/ic_menu_datasync"
+                    android:title="@string/menu_datasync" />
+                <item
+                    android:id="@+id/nav_approval_webview"
+                    android:icon="@drawable/ic_approval"
+                    android:title="Approval">
+
+                </item>
+            </menu>
+
+        </item>
+
+        <item
+            android:icon="@drawable/ic_menu_datasync"
+            android:orderInCategory="1"
+            android:title="@string/nav_semi_mechanized">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_chainsaw_feeling"
+                    android:icon="@drawable/chainsaw"
+                    android:title="@string/nav_chainsaw_feeling" />
+
+                <!--item
+                    android:id="@+id/nav_machine_prebunching"
+                    android:icon="@drawable/chainsaw"
+                    android:title="@string/menu_machine_prebunching" /-->
+
+                <item
+                    android:id="@+id/nav_chainsaw_bucking"
+                    android:icon="@drawable/chainsaw"
+                    android:title="@string/nav_chainsaw_bucking" />
+
+                <!--item
+                    android:id="@+id/nav_machine_extraction"
+                    android:icon="@drawable/chainsaw"
+                    android:title="@string/nav_machine_extraction" /-->
+
+            </menu>
+
+        </item>
+
+        <item
+            android:orderInCategory="1"
+            android:title="@string/other">
+            <menu>
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:icon="@drawable/ic_menu_dashboard"
+                    android:title="@string/menu_dashboard" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

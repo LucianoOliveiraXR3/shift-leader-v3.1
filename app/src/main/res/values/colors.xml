@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#388E3C</color>
+    <color name="purple_500">#6C6C6C</color>
+    <color name="purple_700">#6D6D6D</color>
+    <color name="teal_200">#388E3C</color>
+    <color name="teal_700">#689F38</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#fff</color>
+    <color name="gray">#6E6E6E</color>
+    <color name="green_agrolog">#8BCF69</color>
+    <color name="green_agrolog2">#00FF00</color>
+    <color name="disabled">#BBB</color>
+</resources>
